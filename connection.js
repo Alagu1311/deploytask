@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 import obj from "mongodb";
-const mongostr = "mongodb://127.0.0.1:27017/";
+const mongostr = "mongodb+srv://Alagu:Alagupass@cluster0.chrjfup.mongodb.net/";
 
  export async function dbconnection() {
     const client = new MongoClient(mongostr)
