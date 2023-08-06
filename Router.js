@@ -1,5 +1,5 @@
 import express from 'express';
-import { AddStud, Editstud, getstudent, AddStud} from './control.js';
+import { AddStud, Editstud, getstudent} from './control.js';
 
 const route = express.Router()
 
